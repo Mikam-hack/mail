@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Mail.ru</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light">
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Mail.ru <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Почта</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Мой мир</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Одноклассники</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Вконтакте</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Игры</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Знакомства</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Новости</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Поиск</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Облако</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Combo</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Все проекты
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+    <ul class="navbar-nav mr-right">
+    	<li class="nav-item"><a href="" class="nav-link">Регистрация</a></li>
+    	<li class="nav-item"><a href="" class="nav-link">Вход</a></li>
+    </ul>
+	</div>
+</nav>
+	<div class="container-xl">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="wrap-block">
+				    <div class="wrap-box">
+					<div class="logo">
+						<a href=""><img src="https://via.placeholder.com/400x50" alt="" class="img-fluid"></a>
+					</div>
+				</div>
+				<ul class="row">
+					<li class="col-md-6"><a href="#">Почта</a></li>
+					<li class="col-md-1"><a title="Звонки" class="fa fa-video-camera" href=""></a></li>
+					<li class="col-md-1"><a href="" title="Облако" class="fa fa-cloud "></a></li>
+		    		<li class="col-md-1"><a href="" title="Календарь" class="fa fa-calendar-check-o"></a></li>
+				</ul>
+				<form class="authIndex" action="" method="post" novalidate>
+					<div class="form-row">
+						<div class="form-group col-8">
+							<input id="indexMail" type="text" placeholder="эл.почта" class="form-control">
+						</div>
+						<div class="form-group col-4">
+							<select name="" id="indexSelect" class="form-control">
+								<option value="1">mail.ru</option>
+								<option value="2">bk.ru</option>
+								<option value="3">list.ru</option>
+								<option value="4">inbox.ru</option>
+							</select>
+						</div>
+					</div>
+					<div class="invalid-feedback"></div>
+					<div class="form-row">
+						<div class="wrap-input form-group col-md-12">
+							<input id="indexPass" type="password" placeholder="Пароль" name="password" class="form-control input-block">
+						</div>
+					</div>
+					<button type="submit" id="enterPass" class="btn btn-secondary btn-block">Введите пароль <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+					<div class="form-row">
+						<label class="col">
+							<input type="checkbox">
+							Запомнить
+						</label>
+						<p class="col"><a href="">Забыли пароль</a></p>
+					</div>
+				</form>
+				<div class="wrap-link">
+					<a href="" class="btn btn-secondary btn-block">Создать почту</a>
+				</div>
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<nav class="nav">
+					<a href="#" class="nav-link active">Поиск в интернете</a>
+					<a href="#" class="nav-link">Соц. сети</a>
+					<a href="#" class="nav-link">Видео</a>
+					<a href="#" class="nav-link">Ответы</a>
+				</nav>
+				<form class="search_form"action="" method="get">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span id="searhc" class="input-group-text fa fa-search"></span>
+						</div>
+						<input type="text" class="form-control" name="" id="">
+						<div class="input-group-append">
+							<button class="btn btn-outline-secondary">Найти</button>
+						</div>
+					</div>
+				</form>
+				<nav>
+				  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+				    <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#news" role="tab" aria-controls="nav-home" aria-selected="true">Новости</a>
+				    <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#sport" role="tab" aria-controls="nav-profile" aria-selected="false">Спорт</a>
+				    <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#ladies" role="tab" aria-controls="nav-contact" aria-selected="false">Леди</a>
+					<a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#cars" role="tab" aria-controls="nav-contact" aria-selected="false">Авто</a>
+					<a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#cinema" role="tab" aria-controls="nav-contact" aria-selected="false">Кино</a>
+					<a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#Hi-Tech" role="tab" aria-controls="nav-contact" aria-selected="false">Hi-Tech</a>
+					<a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#games" role="tab" aria-controls="nav-contact" aria-selected="false">Игры</a>
+					<a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#children" role="tab" aria-controls="nav-contact" aria-selected="false">Дети</a>
+					<a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#health" role="tab" aria-controls="nav-contact" aria-selected="false">Здоровье</a>
+					<a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#home" role="tab" aria-controls="nav-contact" aria-selected="false">Дом</a>
+					<a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#pets" role="tab" aria-controls="nav-contact" aria-selected="false">Питомцы</a>
+					</div>
+				</nav>
+				<div class="tab-content" id="nav-tabContent">
+				  <div class="tab-pane fade show active" id="news" role="tabpanel" aria-labelledby="nav-home-tab">Новости</div>
+				  <div class="tab-pane fade" id="sport" role="tabpanel" aria-labelledby="nav-profile-tab">Спорт</div>
+				  <div class="tab-pane fade" id="ladies" role="tabpanel" aria-labelledby="nav-contact-tab">Леди</div>
+				  <div class="tab-pane fade" id="cars" role="tabpanel" aria-labelledby="nav-contact-tab">Авто</div>
+				  <div class="tab-pane fade" id="cinema" role="tabpanel" aria-labelledby="nav-contact-tab">Кино</div>
+				  <div class="tab-pane fade" id="Hi-Tech" role="tabpanel" aria-labelledby="nav-contact-tab">Hi-Tech</div>
+				  <div class="tab-pane fade" id="games" role="tabpanel" aria-labelledby="nav-contact-tab">Игры</div>
+				  <div class="tab-pane fade" id="children" role="tabpanel" aria-labelledby="nav-contact-tab">Дети</div>
+				  <div class="tab-pane fade" id="health" role="tabpanel" aria-labelledby="nav-contact-tab">Здоровье</div>
+				  <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="nav-contact-tab">Дом</div>
+				  <div class="tab-pane fade" id="pets" role="tabpanel" aria-labelledby="nav-contact-tab">Питомцы</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+		</div>
+	</div>
+</div>
+	<script
+			  src="https://code.jquery.com/jquery-3.5.1.js"
+			  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+</body>
+</html>

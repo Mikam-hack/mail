@@ -1,0 +1,90 @@
+ul.row{
+	list-style-type: none;
+}
+
+.col-sm-4{
+	background: #fff; 
+    
+}
+
+.wrap-block{
+
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+
+
+#indexPass{
+	display: none;
+}
+
+/*header*/
+
+
+.navbar .nav-link{
+	font-size: 12px;
+	color: #005bd1 !important;
+}
+
+
+.search_form .input-group{
+	border: 1px solid #ff9e00;
+	border-radius: .25rem;
+}
+
+
+
+
+.search_form .form-control {
+	border: none;
+}
+
+
+.search_form .form-control:focus{
+	box-shadow: none;
+}
+
+
+.search_form .input-group-text{
+	background: transparent;
+	border: none;
+}
+
+.search_form .btn-outline-secondary{
+	border: 1px solid #ff9e00 !important;
+	background: #ff9e00;
+	color: #fff;
+}
+
+.fa-search{
+	color: #c4c4c4;
+}
+
+.search_form .input-group-prepend{
+	padding-top: 4px;
+}
+
+
+/*Табы*/
+.nav-tabs > .nav-link{
+	/*padding-top: 0.5rem;*/
+	padding: .5rem;
+}
+
+.nav-tabs > .nav-link{
+	color: #333;
+}
+
+
+
+.nav-tabs > .nav-link:hover{
+	border: none;
+	border-bottom: 2px solid #c4c4c4;
+}
+
+.nav-tabs > .nav-link.active,.nav-tabs > .nav-link.active:hover{
+	border: none;
+	color: #005bd1;
+	border-bottom: 2px solid #005bd1;
+	font-weight: 700;
+}
